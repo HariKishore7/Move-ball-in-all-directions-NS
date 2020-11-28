@@ -52,10 +52,10 @@ useEffect(()=>{
       else if(evt.keyCode===40){
         updateXY(x,y+5);
       }
-      setBallPosition({
-        left: x+'px',
-        top: y+'px',
-      });
+      // setBallPosition({
+      //   left: x+'px',
+      //   top: y+'px',
+      // });
     }
   };
   document.addEventListener('keydown',keyListener);
